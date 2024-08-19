@@ -14,7 +14,13 @@ public class StudentController {
     }
         @GetMapping("/bye")
     public String goodbye(){
-        return "Good bye.";
+    return "Good bye.";
+
+    }
+
+      @GetMapping("/Hello")
+    public String hello(){
+        return "Hello.";
     }
 
 }
