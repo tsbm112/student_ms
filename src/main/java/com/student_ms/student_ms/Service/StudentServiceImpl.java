@@ -13,5 +13,6 @@ public class StudentServiceImpl implements StudentService {
     public Student save(Student student) {
         //todo :save student
         return studentRepo.save(student);
+        //todo:Implement get all students endpoint;
     }
 }
